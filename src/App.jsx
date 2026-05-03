@@ -2,17 +2,12 @@ import { useState } from 'react'
 import { StudentPortal } from './views/StudentPortal'
 import { AdminLogin } from './views/AdminLogin'
 import { AdminDashboard } from './views/AdminDashboard'
-import { AboutModal } from './components/AboutModal'
+import { About } from './views/About'
 
 export default function App() {
   const [view, setView] = useState('student')
-  const [aboutOpen, setAboutOpen] = useState(false)
 
-  const navProps = {
-    currentView: view,
-    onViewChange: setView,
-    onOpenAbout: () => setAboutOpen(true),
-  }
+  const navProps = { currentView: view, onViewChange: setView }
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
@@ -23,7 +18,7 @@ export default function App() {
       {view === 'admin_dashboard' && (
         <AdminDashboard {...navProps} onLogout={() => setView('admin_login')} />
       )}
-      {aboutOpen && <AboutModal onClose={() => setAboutOpen(false)} />}
+      {view === 'about' && <About {...navProps} />}
     </div>
   )
 }

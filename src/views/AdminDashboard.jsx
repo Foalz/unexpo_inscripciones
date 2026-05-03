@@ -1,7 +1,7 @@
 import { FileText, Users, Settings, LogOut, Upload } from 'lucide-react'
 import { NavLinks } from '../components/NavLinks'
 
-export function AdminDashboard({ onLogout, currentView, onViewChange, onOpenAbout }) {
+export function AdminDashboard({ onLogout, currentView, onViewChange }) {
   return (
     <div className="flex h-screen bg-slate-100 overflow-hidden">
       <aside className="w-64 bg-slate-900 text-slate-300 flex flex-col shrink-0">
@@ -46,7 +46,6 @@ export function AdminDashboard({ onLogout, currentView, onViewChange, onOpenAbou
           <NavLinks
             currentView={currentView}
             onViewChange={onViewChange}
-            onOpenAbout={onOpenAbout}
           />
         </header>
 

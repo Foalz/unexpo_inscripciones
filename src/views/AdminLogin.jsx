@@ -1,14 +1,13 @@
 import { LayoutDashboard, User, CheckCircle } from 'lucide-react'
 import { NavLinks } from '../components/NavLinks'
 
-export function AdminLogin({ onLogin, currentView, onViewChange, onOpenAbout }) {
+export function AdminLogin({ onLogin, currentView, onViewChange }) {
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-900 p-4 relative">
       <div className="absolute top-4 right-4 z-10">
         <NavLinks
           currentView={currentView}
           onViewChange={onViewChange}
-          onOpenAbout={onOpenAbout}
           theme="dark"
         />
       </div>

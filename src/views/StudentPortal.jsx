@@ -12,7 +12,7 @@ import { Toast } from '../components/student/Toast'
 import { CarreraSelector } from '../components/student/CarreraSelector'
 import { NavLinks } from '../components/NavLinks'
 
-export function StudentPortal({ currentView, onViewChange, onOpenAbout }) {
+export function StudentPortal({ currentView, onViewChange }) {
   const { catalog, loading, error } = useCatalog()
   const [carreraId, setCarreraId] = useCarrera()
   const [selected, setSelected] = useState([])
@@ -88,7 +88,6 @@ export function StudentPortal({ currentView, onViewChange, onOpenAbout }) {
           <NavLinks
             currentView={currentView}
             onViewChange={onViewChange}
-            onOpenAbout={onOpenAbout}
           />
           {carrera && (
             <button
