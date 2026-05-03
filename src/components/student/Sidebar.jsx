@@ -75,7 +75,7 @@ export function Sidebar({
           <section key={sem}>
             <header className="sticky top-0 z-10 -mx-4 px-4 py-2 bg-white/95 backdrop-blur-sm border-b border-slate-100 flex items-center justify-between">
               <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-                Semestre {sem}
+                {sem === 99 ? 'Electivas' : `Semestre ${sem}`}
               </h3>
               <span className="text-xs text-slate-400 font-medium">
                 {items.length}
@@ -108,11 +108,16 @@ function SubjectCard({ comision, onAdd }) {
       onClick={onAdd}
       className="bg-white border border-slate-200 rounded-xl p-3 hover:border-indigo-300 hover:shadow-md transition-all group cursor-pointer"
     >
-      <div className="flex justify-between items-start mb-1">
-        <h3 className="font-semibold text-slate-800 text-sm">{comision.nombre}</h3>
-        <span className="text-xs font-mono bg-slate-100 text-slate-500 px-2 py-0.5 rounded">
-          {comision.codigo}
-        </span>
+      <div className="flex justify-between items-start mb-1 gap-2">
+        <h3 className="font-semibold text-slate-800 text-sm flex-1">{comision.nombre}</h3>
+        <div className="flex flex-col items-end gap-1 shrink-0">
+          <span className="text-xs font-mono bg-slate-100 text-slate-500 px-2 py-0.5 rounded">
+            {comision.codigo}
+          </span>
+          <span className="text-[10px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-100 px-1.5 py-0.5 rounded">
+            {comision.uc} UC
+          </span>
+        </div>
       </div>
       <div className="text-xs text-slate-500 flex flex-col gap-1">
         <span>

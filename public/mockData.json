@@ -1,6 +1,6 @@
 {
   "version": "2026-2",
-  "actualizado": "2026-05-02",
+  "actualizado": "2026-05-03",
   "fuente": "UNEXPO Vicerrectorado Luis Caballero Mejías - Resolución 200404002 (26/02/2004)",
   "carreras": [
     {
@@ -122,6 +122,28 @@
             "32152",
             "24012",
             "DEP-II"
+          ]
+        },
+        {
+          "semestre": 99,
+          "totalUC": 0,
+          "electiva": true,
+          "codigos": [
+            "31233",
+            "31203",
+            "31304",
+            "32193",
+            "32203",
+            "33243",
+            "34203",
+            "34033",
+            "34223",
+            "34314",
+            "34284",
+            "53253",
+            "51314",
+            "52374",
+            "41594"
           ]
         }
       ]
@@ -251,6 +273,37 @@
             "32152",
             "DEP-II"
           ]
+        },
+        {
+          "semestre": 99,
+          "totalUC": 0,
+          "electiva": true,
+          "codigos": [
+            "52354",
+            "52384",
+            "52394",
+            "52404",
+            "51314",
+            "52374",
+            "51414",
+            "53424",
+            "52364",
+            "53254",
+            "52124",
+            "52064",
+            "53134",
+            "53294",
+            "53234",
+            "53334",
+            "53314",
+            "43613",
+            "41594",
+            "31284",
+            "32193",
+            "34314",
+            "34304",
+            "31304"
+          ]
         }
       ]
     },
@@ -377,6 +430,31 @@
             "43592",
             "24012",
             "32152"
+          ]
+        },
+        {
+          "semestre": 99,
+          "totalUC": 0,
+          "electiva": true,
+          "codigos": [
+            "43113",
+            "43121",
+            "43623",
+            "43613",
+            "46533",
+            "46543",
+            "46553",
+            "46563",
+            "44203",
+            "41594",
+            "42573",
+            "44303",
+            "46573",
+            "32082",
+            "32102",
+            "34314",
+            "34304",
+            "51314"
           ]
         }
       ]
@@ -765,6 +843,32 @@
         "52233"
       ]
     },
+    "31203": {
+      "codigo": "31203",
+      "nombre": "Diagnóstico Industrial",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "34043"
+      ]
+    },
+    "31233": {
+      "codigo": "31233",
+      "nombre": "Computación Aplicada a la Ingeniería Industrial",
+      "T": 2,
+      "P": 0,
+      "L": 2,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "31054",
+        "31064",
+        "33043"
+      ]
+    },
     "31254": {
       "codigo": "31254",
       "nombre": "Físico-Química",
@@ -801,6 +905,31 @@
       "HT": 4,
       "requisitos": [
         "31263"
+      ]
+    },
+    "31284": {
+      "codigo": "31284",
+      "nombre": "Organización del Mantenimiento Industrial",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "31263"
+      ]
+    },
+    "31304": {
+      "codigo": "31304",
+      "nombre": "Diseño Industrial",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "130 UCA",
+        "31074"
       ]
     },
     "32012": {
@@ -894,6 +1023,33 @@
         "150 UCA"
       ]
     },
+    "32193": {
+      "codigo": "32193",
+      "nombre": "Tecnología de los Sistemas de Información I",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "46513",
+        "33023",
+        "32082"
+      ]
+    },
+    "32203": {
+      "codigo": "32203",
+      "nombre": "Tecnología de los Sistemas de Información II",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "32193",
+        "31064"
+      ]
+    },
     "33013": {
       "codigo": "33013",
       "nombre": "Inferencia Estadística I",
@@ -981,6 +1137,18 @@
         "43545"
       ]
     },
+    "33243": {
+      "codigo": "33243",
+      "nombre": "Normalización y Certificación de Calidad",
+      "T": 2,
+      "P": 2,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "33063"
+      ]
+    },
     "34013": {
       "codigo": "34013",
       "nombre": "Economía I",
@@ -1005,6 +1173,18 @@
       "requisitos": [
         "34013",
         "34034"
+      ]
+    },
+    "34033": {
+      "codigo": "34033",
+      "nombre": "Dinámica de Costos Standard",
+      "T": 2,
+      "P": 2,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "P(31064)"
       ]
     },
     "34034": {
@@ -1041,6 +1221,69 @@
       "HT": 3,
       "requisitos": [
         "100 UCA"
+      ]
+    },
+    "34203": {
+      "codigo": "34203",
+      "nombre": "Formulación y Evaluación de Proyectos",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "31074",
+        "31064",
+        "31192",
+        "31054"
+      ]
+    },
+    "34223": {
+      "codigo": "34223",
+      "nombre": "Planificación y Desarrollo Industrial",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "34043"
+      ]
+    },
+    "34284": {
+      "codigo": "34284",
+      "nombre": "Organización de Mantenimiento Industrial",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "31263"
+      ]
+    },
+    "34304": {
+      "codigo": "34304",
+      "nombre": "Mercadeo de los Servicios de Ingeniería",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "130 UCA"
+      ]
+    },
+    "34314": {
+      "codigo": "34314",
+      "nombre": "Finanzas para Ingenieros",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "130 UCA"
       ]
     },
     "41144": {
@@ -1148,6 +1391,20 @@
         "P(41553)"
       ]
     },
+    "41594": {
+      "codigo": "41594",
+      "nombre": "Canalizaciones",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "41144",
+        "41151",
+        "140 UCA"
+      ]
+    },
     "42513": {
       "codigo": "42513",
       "nombre": "Sistemas Digitales I",
@@ -1223,6 +1480,44 @@
       "HT": 3,
       "requisitos": [
         "P(42553)"
+      ]
+    },
+    "42573": {
+      "codigo": "42573",
+      "nombre": "Arquitectura del Computador",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "42553",
+        "42561"
+      ]
+    },
+    "43113": {
+      "codigo": "43113",
+      "nombre": "Controles Industriales",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "43554",
+        "43561"
+      ]
+    },
+    "43121": {
+      "codigo": "43121",
+      "nombre": "Laboratorio de Controles Industriales",
+      "T": 0,
+      "P": 0,
+      "L": 3,
+      "UC": 1,
+      "HT": 3,
+      "requisitos": [
+        "P(43113)"
       ]
     },
     "43514": {
@@ -1345,6 +1640,31 @@
         "45553"
       ]
     },
+    "43613": {
+      "codigo": "43613",
+      "nombre": "Control de Procesos Industriales",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "51183"
+      ]
+    },
+    "43623": {
+      "codigo": "43623",
+      "nombre": "Control Óptimo",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "43554",
+        "43561"
+      ]
+    },
     "44023": {
       "codigo": "44023",
       "nombre": "Sistemas de Comunicaciones",
@@ -1372,6 +1692,32 @@
     "44043": {
       "codigo": "44043",
       "nombre": "Transmisión de Datos",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "44023",
+        "44031"
+      ]
+    },
+    "44203": {
+      "codigo": "44203",
+      "nombre": "Telefonía",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "44023",
+        "44031"
+      ]
+    },
+    "44303": {
+      "codigo": "44303",
+      "nombre": "Fibra Óptica",
       "T": 3,
       "P": 1,
       "L": 0,
@@ -1499,6 +1845,69 @@
         "96 UCA",
         "46513",
         "43545"
+      ]
+    },
+    "46533": {
+      "codigo": "46533",
+      "nombre": "Sistemas de Información I",
+      "T": 2,
+      "P": 2,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "46523"
+      ]
+    },
+    "46543": {
+      "codigo": "46543",
+      "nombre": "Sistemas de Información II",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "46533"
+      ]
+    },
+    "46553": {
+      "codigo": "46553",
+      "nombre": "Teoría de Decisiones I",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "46513",
+        "11044",
+        "130 UCA",
+        "33113"
+      ]
+    },
+    "46563": {
+      "codigo": "46563",
+      "nombre": "Teoría de Decisiones II",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "46553"
+      ]
+    },
+    "46573": {
+      "codigo": "46573",
+      "nombre": "Base de Datos",
+      "T": 3,
+      "P": 1,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "46523"
       ]
     },
     "51012": {
@@ -1630,6 +2039,32 @@
         "52221"
       ]
     },
+    "51314": {
+      "codigo": "51314",
+      "nombre": "Automatización Industrial",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "41144",
+        "41151",
+        "51212"
+      ]
+    },
+    "51414": {
+      "codigo": "51414",
+      "nombre": "Análisis de Esfuerzos",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133"
+      ]
+    },
     "52013": {
       "codigo": "52013",
       "nombre": "Termodinámica I",
@@ -1694,6 +2129,18 @@
         "52054"
       ]
     },
+    "52064": {
+      "codigo": "52064",
+      "nombre": "Fuentes Renovables de Energía",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52063"
+      ]
+    },
     "52083": {
       "codigo": "52083",
       "nombre": "Máquinas de Desplazamiento",
@@ -1729,6 +2176,19 @@
       "HT": 5,
       "requisitos": [
         "11044"
+      ]
+    },
+    "52124": {
+      "codigo": "52124",
+      "nombre": "Análisis Numérico",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52123",
+        "46513"
       ]
     },
     "52133": {
@@ -1843,6 +2303,79 @@
         "52233"
       ]
     },
+    "52354": {
+      "codigo": "52354",
+      "nombre": "Aire Acondicionado",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52063"
+      ]
+    },
+    "52364": {
+      "codigo": "52364",
+      "nombre": "Transferencia de Calor Avanzada",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52063"
+      ]
+    },
+    "52374": {
+      "codigo": "52374",
+      "nombre": "Lubricación",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133"
+      ]
+    },
+    "52384": {
+      "codigo": "52384",
+      "nombre": "Bombas y Ventiladores",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52133",
+        "52083"
+      ]
+    },
+    "52394": {
+      "codigo": "52394",
+      "nombre": "Ventilación Industrial",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52063"
+      ]
+    },
+    "52404": {
+      "codigo": "52404",
+      "nombre": "Dinámica de Gases",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52054"
+      ]
+    },
     "52501": {
       "codigo": "52501",
       "nombre": "Laboratorio de Termodinámica",
@@ -1932,6 +2465,19 @@
         "53124"
       ]
     },
+    "53134": {
+      "codigo": "53134",
+      "nombre": "Diseño de Tuberías",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133",
+        "52063"
+      ]
+    },
     "53203": {
       "codigo": "53203",
       "nombre": "Diseño de Máquinas",
@@ -1945,6 +2491,43 @@
         "51202"
       ]
     },
+    "53234": {
+      "codigo": "53234",
+      "nombre": "Diseño de Recipientes a Presión",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133",
+        "52063"
+      ]
+    },
+    "53253": {
+      "codigo": "53253",
+      "nombre": "Máquinas de Elevación y Transporte (Industrial)",
+      "T": 2,
+      "P": 2,
+      "L": 0,
+      "UC": 3,
+      "HT": 4,
+      "requisitos": [
+        "31074"
+      ]
+    },
+    "53254": {
+      "codigo": "53254",
+      "nombre": "Máquinas de Elevación y Transporte (Mecánica)",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133"
+      ]
+    },
     "53281": {
       "codigo": "53281",
       "nombre": "Laboratorio de Dinámica de Máquinas",
@@ -1955,6 +2538,19 @@
       "HT": 2,
       "requisitos": [
         "53323"
+      ]
+    },
+    "53294": {
+      "codigo": "53294",
+      "nombre": "Oleohidráulica Industrial",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "52083",
+        "51183"
       ]
     },
     "53302": {
@@ -1982,6 +2578,18 @@
         "53302"
       ]
     },
+    "53314": {
+      "codigo": "53314",
+      "nombre": "Diseño Asistido por Computadora",
+      "T": 2,
+      "P": 3,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133"
+      ]
+    },
     "53323": {
       "codigo": "53323",
       "nombre": "Dinámica de Máquinas II",
@@ -1993,6 +2601,19 @@
       "requisitos": [
         "53313",
         "52123"
+      ]
+    },
+    "53334": {
+      "codigo": "53334",
+      "nombre": "Proyectos en Ingeniería Mecánica",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133",
+        "52054"
       ]
     },
     "53403": {
@@ -2019,6 +2640,19 @@
       "requisitos": [
         "11034",
         "53403"
+      ]
+    },
+    "53424": {
+      "codigo": "53424",
+      "nombre": "Análisis de Vibraciones",
+      "T": 3,
+      "P": 2,
+      "L": 0,
+      "UC": 4,
+      "HT": 5,
+      "requisitos": [
+        "53133",
+        "52063"
       ]
     },
     "54011": {
@@ -4368,6 +5002,804 @@
           "hora_inicio": "10:00",
           "hora_fin": "14:00",
           "aula": "Lab Física 2"
+        }
+      ]
+    },
+    {
+      "codigo": "31233",
+      "id": "31233-01",
+      "numero": "01",
+      "profesor": "Dr. García",
+      "cupo": 43,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "09:00",
+          "hora_fin": "13:00",
+          "aula": "Lab Tecnología 1"
+        }
+      ]
+    },
+    {
+      "codigo": "31203",
+      "id": "31203-01",
+      "numero": "01",
+      "profesor": "Mg. Mendoza",
+      "cupo": 34,
+      "horarios": [
+        {
+          "dia": "viernes",
+          "hora_inicio": "07:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 199"
+        }
+      ]
+    },
+    {
+      "codigo": "31304",
+      "id": "31304-01",
+      "numero": "01",
+      "profesor": "Prof. Mendoza",
+      "cupo": 30,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 155"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "08:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 155"
+        }
+      ]
+    },
+    {
+      "codigo": "32193",
+      "id": "32193-01",
+      "numero": "01",
+      "profesor": "Dr. Castillo",
+      "cupo": 37,
+      "horarios": [
+        {
+          "dia": "jueves",
+          "hora_inicio": "18:00",
+          "hora_fin": "22:00",
+          "aula": "Aula 232"
+        }
+      ]
+    },
+    {
+      "codigo": "32203",
+      "id": "32203-01",
+      "numero": "01",
+      "profesor": "Lic. Marín",
+      "cupo": 26,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "07:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 188"
+        }
+      ]
+    },
+    {
+      "codigo": "33243",
+      "id": "33243-01",
+      "numero": "01",
+      "profesor": "Mg. Vargas",
+      "cupo": 37,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "14:00",
+          "hora_fin": "18:00",
+          "aula": "Aula 155"
+        }
+      ]
+    },
+    {
+      "codigo": "34203",
+      "id": "34203-01",
+      "numero": "01",
+      "profesor": "Dr. García",
+      "cupo": 31,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "09:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 166"
+        }
+      ]
+    },
+    {
+      "codigo": "34033",
+      "id": "34033-01",
+      "numero": "01",
+      "profesor": "Dra. Torres",
+      "cupo": 29,
+      "horarios": [
+        {
+          "dia": "jueves",
+          "hora_inicio": "10:00",
+          "hora_fin": "14:00",
+          "aula": "Aula 221"
+        }
+      ]
+    },
+    {
+      "codigo": "34223",
+      "id": "34223-01",
+      "numero": "01",
+      "profesor": "Ing. Sánchez",
+      "cupo": 30,
+      "horarios": [
+        {
+          "dia": "viernes",
+          "hora_inicio": "13:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 232"
+        }
+      ]
+    },
+    {
+      "codigo": "34314",
+      "id": "34314-01",
+      "numero": "01",
+      "profesor": "Mg. Fernández",
+      "cupo": 37,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 155"
+        },
+        {
+          "dia": "miercoles",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 155"
+        }
+      ]
+    },
+    {
+      "codigo": "34284",
+      "id": "34284-01",
+      "numero": "01",
+      "profesor": "Mg. Acosta",
+      "cupo": 28,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 133"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "08:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 133"
+        }
+      ]
+    },
+    {
+      "codigo": "53253",
+      "id": "53253-01",
+      "numero": "01",
+      "profesor": "Dr. Salas",
+      "cupo": 34,
+      "horarios": [
+        {
+          "dia": "jueves",
+          "hora_inicio": "18:00",
+          "hora_fin": "22:00",
+          "aula": "Aula 122"
+        }
+      ]
+    },
+    {
+      "codigo": "51314",
+      "id": "51314-01",
+      "numero": "01",
+      "profesor": "Ing. Marín",
+      "cupo": 27,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "13:00",
+          "hora_fin": "16:00",
+          "aula": "Aula 122"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "13:00",
+          "hora_fin": "16:00",
+          "aula": "Aula 122"
+        }
+      ]
+    },
+    {
+      "codigo": "52374",
+      "id": "52374-01",
+      "numero": "01",
+      "profesor": "Mg. Silva",
+      "cupo": 37,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 155"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "08:00",
+          "hora_fin": "11:00",
+          "aula": "Aula 155"
+        }
+      ]
+    },
+    {
+      "codigo": "41594",
+      "id": "41594-01",
+      "numero": "01",
+      "profesor": "Prof. Romero",
+      "cupo": 30,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "10:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 155"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "10:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 155"
+        }
+      ]
+    },
+    {
+      "codigo": "52354",
+      "id": "52354-01",
+      "numero": "01",
+      "profesor": "Dra. Vargas",
+      "cupo": 38,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "19:00",
+          "hora_fin": "22:00",
+          "aula": "Aula 243"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "19:00",
+          "hora_fin": "22:00",
+          "aula": "Aula 243"
+        }
+      ]
+    },
+    {
+      "codigo": "52384",
+      "id": "52384-01",
+      "numero": "01",
+      "profesor": "Lic. Romero",
+      "cupo": 26,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "09:00",
+          "hora_fin": "12:00",
+          "aula": "Aula 188"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "09:00",
+          "hora_fin": "12:00",
+          "aula": "Aula 188"
+        }
+      ]
+    },
+    {
+      "codigo": "52394",
+      "id": "52394-01",
+      "numero": "01",
+      "profesor": "Prof. Mendoza",
+      "cupo": 36,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "10:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 221"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "10:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 221"
+        }
+      ]
+    },
+    {
+      "codigo": "52404",
+      "id": "52404-01",
+      "numero": "01",
+      "profesor": "Mg. Marín",
+      "cupo": 25,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 177"
+        },
+        {
+          "dia": "miercoles",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 177"
+        }
+      ]
+    },
+    {
+      "codigo": "51414",
+      "id": "51414-01",
+      "numero": "01",
+      "profesor": "Mg. Marín",
+      "cupo": 43,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 221"
+        },
+        {
+          "dia": "miercoles",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 221"
+        }
+      ]
+    },
+    {
+      "codigo": "53424",
+      "id": "53424-01",
+      "numero": "01",
+      "profesor": "Dr. Fernández",
+      "cupo": 37,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "18:00",
+          "hora_fin": "21:00",
+          "aula": "Aula 232"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "18:00",
+          "hora_fin": "21:00",
+          "aula": "Aula 232"
+        }
+      ]
+    },
+    {
+      "codigo": "52364",
+      "id": "52364-01",
+      "numero": "01",
+      "profesor": "Ing. Salas",
+      "cupo": 27,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "07:00",
+          "hora_fin": "10:00",
+          "aula": "Aula 122"
+        },
+        {
+          "dia": "miercoles",
+          "hora_inicio": "07:00",
+          "hora_fin": "10:00",
+          "aula": "Aula 122"
+        }
+      ]
+    },
+    {
+      "codigo": "53254",
+      "id": "53254-01",
+      "numero": "01",
+      "profesor": "Dra. Salas",
+      "cupo": 35,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "19:00",
+          "hora_fin": "22:00",
+          "aula": "Aula 133"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "19:00",
+          "hora_fin": "22:00",
+          "aula": "Aula 133"
+        }
+      ]
+    },
+    {
+      "codigo": "52124",
+      "id": "52124-01",
+      "numero": "01",
+      "profesor": "Ing. García",
+      "cupo": 39,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "13:00",
+          "hora_fin": "16:00",
+          "aula": "Aula 100"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "13:00",
+          "hora_fin": "16:00",
+          "aula": "Aula 100"
+        }
+      ]
+    },
+    {
+      "codigo": "52064",
+      "id": "52064-01",
+      "numero": "01",
+      "profesor": "Prof. Salas",
+      "cupo": 42,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "16:00",
+          "hora_fin": "19:00",
+          "aula": "Aula 133"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "16:00",
+          "hora_fin": "19:00",
+          "aula": "Aula 133"
+        }
+      ]
+    },
+    {
+      "codigo": "53134",
+      "id": "53134-01",
+      "numero": "01",
+      "profesor": "Lic. Sánchez",
+      "cupo": 41,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "15:00",
+          "hora_fin": "18:00",
+          "aula": "Aula 122"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "15:00",
+          "hora_fin": "18:00",
+          "aula": "Aula 122"
+        }
+      ]
+    },
+    {
+      "codigo": "53294",
+      "id": "53294-01",
+      "numero": "01",
+      "profesor": "Prof. Acosta",
+      "cupo": 33,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "10:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 111"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "10:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 111"
+        }
+      ]
+    },
+    {
+      "codigo": "53234",
+      "id": "53234-01",
+      "numero": "01",
+      "profesor": "Prof. Sánchez",
+      "cupo": 36,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "16:00",
+          "hora_fin": "19:00",
+          "aula": "Aula 221"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "16:00",
+          "hora_fin": "19:00",
+          "aula": "Aula 221"
+        }
+      ]
+    },
+    {
+      "codigo": "53334",
+      "id": "53334-01",
+      "numero": "01",
+      "profesor": "Dr. Sánchez",
+      "cupo": 31,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "18:00",
+          "hora_fin": "21:00",
+          "aula": "Aula 166"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "18:00",
+          "hora_fin": "21:00",
+          "aula": "Aula 166"
+        }
+      ]
+    },
+    {
+      "codigo": "53314",
+      "id": "53314-01",
+      "numero": "01",
+      "profesor": "Lic. García",
+      "cupo": 32,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "15:00",
+          "hora_fin": "18:00",
+          "aula": "Aula 100"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "15:00",
+          "hora_fin": "18:00",
+          "aula": "Aula 100"
+        }
+      ]
+    },
+    {
+      "codigo": "43613",
+      "id": "43613-01",
+      "numero": "01",
+      "profesor": "Prof. García",
+      "cupo": 33,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "16:00",
+          "hora_fin": "20:00",
+          "aula": "Aula 111"
+        }
+      ]
+    },
+    {
+      "codigo": "31284",
+      "id": "31284-01",
+      "numero": "01",
+      "profesor": "Dr. Silva",
+      "cupo": 31,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "18:00",
+          "hora_fin": "21:00",
+          "aula": "Aula 166"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "18:00",
+          "hora_fin": "21:00",
+          "aula": "Aula 166"
+        }
+      ]
+    },
+    {
+      "codigo": "34304",
+      "id": "34304-01",
+      "numero": "01",
+      "profesor": "Ing. García",
+      "cupo": 27,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "13:00",
+          "hora_fin": "16:00",
+          "aula": "Aula 122"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "13:00",
+          "hora_fin": "16:00",
+          "aula": "Aula 122"
+        }
+      ]
+    },
+    {
+      "codigo": "43113",
+      "id": "43113-01",
+      "numero": "01",
+      "profesor": "Dr. García",
+      "cupo": 37,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "09:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 232"
+        }
+      ]
+    },
+    {
+      "codigo": "43121",
+      "id": "43121-01",
+      "numero": "01",
+      "profesor": "Prof. Fernández",
+      "cupo": 45,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "11:00",
+          "aula": "Lab Fluidos"
+        }
+      ]
+    },
+    {
+      "codigo": "43623",
+      "id": "43623-01",
+      "numero": "01",
+      "profesor": "Dr. Fernández",
+      "cupo": 43,
+      "horarios": [
+        {
+          "dia": "jueves",
+          "hora_inicio": "18:00",
+          "hora_fin": "22:00",
+          "aula": "Aula 144"
+        }
+      ]
+    },
+    {
+      "codigo": "46533",
+      "id": "46533-01",
+      "numero": "01",
+      "profesor": "Mg. Silva",
+      "cupo": 34,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "12:00",
+          "aula": "Aula 199"
+        }
+      ]
+    },
+    {
+      "codigo": "46543",
+      "id": "46543-01",
+      "numero": "01",
+      "profesor": "Lic. Romero",
+      "cupo": 44,
+      "horarios": [
+        {
+          "dia": "miercoles",
+          "hora_inicio": "09:00",
+          "hora_fin": "13:00",
+          "aula": "Aula 232"
+        }
+      ]
+    },
+    {
+      "codigo": "46553",
+      "id": "46553-01",
+      "numero": "01",
+      "profesor": "Prof. Mendoza",
+      "cupo": 33,
+      "horarios": [
+        {
+          "dia": "jueves",
+          "hora_inicio": "10:00",
+          "hora_fin": "14:00",
+          "aula": "Aula 111"
+        }
+      ]
+    },
+    {
+      "codigo": "46563",
+      "id": "46563-01",
+      "numero": "01",
+      "profesor": "Dr. Marín",
+      "cupo": 43,
+      "horarios": [
+        {
+          "dia": "viernes",
+          "hora_inicio": "13:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 144"
+        }
+      ]
+    },
+    {
+      "codigo": "44203",
+      "id": "44203-01",
+      "numero": "01",
+      "profesor": "Dra. García",
+      "cupo": 35,
+      "horarios": [
+        {
+          "dia": "jueves",
+          "hora_inicio": "10:00",
+          "hora_fin": "14:00",
+          "aula": "Aula 133"
+        }
+      ]
+    },
+    {
+      "codigo": "42573",
+      "id": "42573-01",
+      "numero": "01",
+      "profesor": "Mg. Silva",
+      "cupo": 43,
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "08:00",
+          "hora_fin": "12:00",
+          "aula": "Aula 221"
+        }
+      ]
+    },
+    {
+      "codigo": "44303",
+      "id": "44303-01",
+      "numero": "01",
+      "profesor": "Ing. García",
+      "cupo": 30,
+      "horarios": [
+        {
+          "dia": "viernes",
+          "hora_inicio": "13:00",
+          "hora_fin": "17:00",
+          "aula": "Aula 232"
+        }
+      ]
+    },
+    {
+      "codigo": "46573",
+      "id": "46573-01",
+      "numero": "01",
+      "profesor": "Dra. Pérez",
+      "cupo": 32,
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "14:00",
+          "hora_fin": "18:00",
+          "aula": "Aula 177"
         }
       ]
     }

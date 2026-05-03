@@ -1,15 +1,23 @@
 import { Trash2, Sparkles, Download } from 'lucide-react'
 
-export function BottomBar({ onClear, onOpenAi, onExport }) {
+export function BottomBar({ onClear, onOpenAi, onExport, totalUC, totalMaterias }) {
   return (
     <div className="bg-white border-t border-slate-200 p-4 shrink-0 flex flex-wrap gap-3 items-center justify-between z-10 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
-      <button
-        onClick={onClear}
-        className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-600 hover:bg-rose-50 hover:text-rose-600 rounded-lg transition-colors"
-      >
-        <Trash2 size={16} />
-        <span className="hidden sm:inline">Limpiar Todo</span>
-      </button>
+      <div className="flex items-center gap-2">
+        <button
+          onClick={onClear}
+          className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-600 hover:bg-rose-50 hover:text-rose-600 rounded-lg transition-colors"
+        >
+          <Trash2 size={16} />
+          <span className="hidden sm:inline">Limpiar Todo</span>
+        </button>
+        <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-50 border border-emerald-100 text-emerald-800 text-sm">
+          <span className="font-semibold">{totalUC}</span>
+          <span className="text-emerald-600">UC</span>
+          <span className="text-emerald-300">·</span>
+          <span className="text-emerald-700">{totalMaterias} materias</span>
+        </div>
+      </div>
 
       <div className="flex gap-3 w-full sm:w-auto">
         <button

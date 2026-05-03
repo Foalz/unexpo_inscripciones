@@ -164,6 +164,60 @@ const MATERIAS_RAW = [
   ['31113', 'Producción', 2, 2, 0, 3, ['33113']],
   ['44043', 'Transmisión de Datos', 3, 1, 0, 3, ['44023', '44031']],
   ['43592', 'Proyectos Industriales', 1, 0, 3, 2, ['42553', '43573', '44023', '45553']],
+
+  // --- Electivas Industrial (propias) ---
+  ['31233', 'Computación Aplicada a la Ingeniería Industrial', 2, 0, 2, 3, ['31054', '31064', '33043']],
+  ['31203', 'Diagnóstico Industrial', 3, 1, 0, 3, ['34043']],
+  ['31304', 'Diseño Industrial', 3, 2, 0, 4, ['130 UCA', '31074']],
+  ['32193', 'Tecnología de los Sistemas de Información I', 3, 1, 0, 3, ['46513', '33023', '32082']],
+  ['32203', 'Tecnología de los Sistemas de Información II', 3, 1, 0, 3, ['32193', '31064']],
+  ['33243', 'Normalización y Certificación de Calidad', 2, 2, 0, 3, ['33063']],
+  ['34203', 'Formulación y Evaluación de Proyectos', 3, 1, 0, 3, ['31074', '31064', '31192', '31054']],
+  ['34033', 'Dinámica de Costos Standard', 2, 2, 0, 3, ['P(31064)']],
+  ['34223', 'Planificación y Desarrollo Industrial', 3, 1, 0, 3, ['34043']],
+  ['34314', 'Finanzas para Ingenieros', 3, 2, 0, 4, ['130 UCA']],
+  ['34284', 'Organización de Mantenimiento Industrial', 3, 2, 0, 4, ['31263']],
+
+  // --- Electivas Industrial (de otras especialidades) ---
+  ['53253', 'Máquinas de Elevación y Transporte (Industrial)', 2, 2, 0, 3, ['31074']],
+  ['51314', 'Automatización Industrial', 3, 2, 0, 4, ['41144', '41151', '51212']],
+  ['52374', 'Lubricación', 3, 2, 0, 4, ['53133']],
+  ['41594', 'Canalizaciones', 3, 2, 0, 4, ['41144', '41151', '140 UCA']],
+
+  // --- Electivas Mecánica (propias) ---
+  ['52354', 'Aire Acondicionado', 3, 2, 0, 4, ['52063']],
+  ['52384', 'Bombas y Ventiladores', 3, 2, 0, 4, ['52133', '52083']],
+  ['52394', 'Ventilación Industrial', 3, 2, 0, 4, ['52063']],
+  ['52404', 'Dinámica de Gases', 3, 2, 0, 4, ['52054']],
+  ['51414', 'Análisis de Esfuerzos', 3, 2, 0, 4, ['53133']],
+  ['53424', 'Análisis de Vibraciones', 3, 2, 0, 4, ['53133', '52063']],
+  ['52364', 'Transferencia de Calor Avanzada', 3, 2, 0, 4, ['52063']],
+  ['53254', 'Máquinas de Elevación y Transporte (Mecánica)', 3, 2, 0, 4, ['53133']],
+  ['52124', 'Análisis Numérico', 3, 2, 0, 4, ['52123', '46513']],
+  ['52064', 'Fuentes Renovables de Energía', 3, 2, 0, 4, ['52063']],
+  ['53134', 'Diseño de Tuberías', 3, 2, 0, 4, ['53133', '52063']],
+  ['53294', 'Oleohidráulica Industrial', 3, 2, 0, 4, ['52083', '51183']],
+  ['53234', 'Diseño de Recipientes a Presión', 3, 2, 0, 4, ['53133', '52063']],
+  ['53334', 'Proyectos en Ingeniería Mecánica', 3, 2, 0, 4, ['53133', '52054']],
+  ['53314', 'Diseño Asistido por Computadora', 2, 3, 0, 4, ['53133']],
+
+  // --- Electivas Mecánica (de otras especialidades) ---
+  ['43613', 'Control de Procesos Industriales', 3, 1, 0, 3, ['51183']],
+  ['31284', 'Organización del Mantenimiento Industrial', 3, 2, 0, 4, ['31263']],
+  ['34304', 'Mercadeo de los Servicios de Ingeniería', 3, 2, 0, 4, ['130 UCA']],
+
+  // --- Electivas Sistemas (propias) ---
+  ['43113', 'Controles Industriales', 3, 1, 0, 3, ['43554', '43561']],
+  ['43121', 'Laboratorio de Controles Industriales', 0, 0, 3, 1, ['P(43113)']],
+  ['43623', 'Control Óptimo', 3, 1, 0, 3, ['43554', '43561']],
+  ['46533', 'Sistemas de Información I', 2, 2, 0, 3, ['46523']],
+  ['46543', 'Sistemas de Información II', 3, 1, 0, 3, ['46533']],
+  ['46553', 'Teoría de Decisiones I', 3, 1, 0, 3, ['46513', '11044', '130 UCA', '33113']],
+  ['46563', 'Teoría de Decisiones II', 3, 1, 0, 3, ['46553']],
+  ['44203', 'Telefonía', 3, 1, 0, 3, ['44023', '44031']],
+  ['42573', 'Arquitectura del Computador', 3, 1, 0, 3, ['42553', '42561']],
+  ['44303', 'Fibra Óptica', 3, 1, 0, 3, ['44023', '44031']],
+  ['46573', 'Base de Datos', 3, 1, 0, 3, ['46523']],
 ]
 
 const MATERIAS = MATERIAS_RAW.map(([codigo, nombre, T, P, L, UC, requisitos]) => ({
@@ -188,6 +242,10 @@ const CARRERAS = [
       { semestre: 7, totalUC: 21, codigos: ['33043', '52212', '52221', '32082', '32073', '33063', '34043', '24022', '21232'] },
       { semestre: 8, totalUC: 20, codigos: ['31054', '31064', '31074', '32102', '51212', '31192', '24032'] },
       { semestre: 9, totalUC: 21, codigos: ['32152', '24012', 'DEP-II'] },
+      { semestre: 99, totalUC: 0, electiva: true, codigos: [
+        '31233', '31203', '31304', '32193', '32203', '33243', '34203', '34033', '34223', '34314', '34284',
+        '53253', '51314', '52374', '41594',
+      ] },
     ],
   },
   {
@@ -203,6 +261,11 @@ const CARRERAS = [
       { semestre: 7, totalUC: 21, codigos: ['52054', '31263', '32012', '21132', '53133', '51053', '51061', '53281', '24022'] },
       { semestre: 8, totalUC: 21, codigos: ['52133', '31273', '52063', '52083', '51183', '52161', '51171', '52171', '52111', '24032'] },
       { semestre: 9, totalUC: 21, codigos: ['24012', '32152', 'DEP-II'] },
+      { semestre: 99, totalUC: 0, electiva: true, codigos: [
+        '52354', '52384', '52394', '52404', '51314', '52374', '51414', '53424', '52364', '53254',
+        '52124', '52064', '53134', '53294', '53234', '53334', '53314',
+        '43613', '41594', '31284', '32193', '34314', '34304', '31304',
+      ] },
     ],
   },
   {
@@ -218,6 +281,11 @@ const CARRERAS = [
       { semestre: 7, totalUC: 21, codigos: ['42553', '42561', '46523', '43554', '43561', '44513', '34052', '21032', '24022'] },
       { semestre: 8, totalUC: 20, codigos: ['43573', '43581', '44023', '44031', '33113', '24032', 'DEP-II'] },
       { semestre: 9, totalUC: 21, codigos: ['31113', '44043', '43592', '24012', '32152'] },
+      { semestre: 99, totalUC: 0, electiva: true, codigos: [
+        '43113', '43121', '43623', '43613', '46533', '46543', '46553', '46563',
+        '44203', '41594', '42573', '44303', '46573',
+        '32082', '32102', '34314', '34304', '51314',
+      ] },
     ],
   },
 ]

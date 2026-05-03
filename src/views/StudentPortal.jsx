@@ -36,6 +36,10 @@ export function StudentPortal({ currentView, onViewChange }) {
   }, [comisiones])
 
   const blocks = useMemo(() => selected.flatMap(comisionToBlocks), [selected])
+  const totalUC = useMemo(
+    () => selected.reduce((sum, c) => sum + (c.uc ?? 0), 0),
+    [selected]
+  )
 
   const showToast = (message, type) => {
     setToast({ message, type })
@@ -140,6 +144,8 @@ export function StudentPortal({ currentView, onViewChange }) {
                 onExport={() =>
                   showToast('Iniciando exportación PDF...', 'success')
                 }
+                totalUC={totalUC}
+                totalMaterias={selected.length}
               />
             </main>
           </>
